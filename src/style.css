@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0873a6;
+  --color-primary-hover: #065b84;
+  --color-primary-light: #1495c9;
+  --color-accent: #ffcb08;
+  --color-accent-hover: #e5b600;
+  --color-canvas: #f8fafc;
+  --color-surface: #ffffff;
+  --color-surface-dark: #0f172a;
+  --color-card-dark: #1e293b;
+  --color-text-main: #0f172a;
+  --color-text-muted: #64748b;
+  --color-border-subtle: #e2e8f0;
+  --color-border-dark: #334155;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+:root {
+  --color-primary: #0873a6;
+  --color-primary-hover: #065b84;
+  --color-primary-light: #1495c9;
+  --color-accent: #ffcb08;
+  --color-accent-hover: #e5b600;
+  --color-canvas: #f8fafc;
+  --color-surface: #ffffff;
+  --color-surface-dark: #0f172a;
+  --color-card-dark: #1e293b;
+  --color-text-main: #0f172a;
+  --color-text-muted: #64748b;
+  --color-border-subtle: #e2e8f0;
+  --color-border-dark: #334155;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  color: var(--color-text-main);
+  background-color: var(--color-canvas);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Accessible focus visible ring (antislop-human) */
+*:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #0873a6;
+}
+
+/* Ambient light glows (dose capped at 1-2 points per view) */
+.ambient-glow-primary {
+  background: radial-gradient(circle, rgba(20, 149, 201, 0.14) 0%, rgba(20, 149, 201, 0) 70%);
+}
+
+.ambient-glow-accent {
+  background: radial-gradient(circle, rgba(255, 203, 8, 0.12) 0%, rgba(255, 203, 8) 0.01) 70%;
+}
+
+/* Tactile micro-noise texture for background depth */
+.bg-noise {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+}
+
+/* Controlled glassmorphism (antislop-ui: maks 2 elemen) */
+.glass-nav {
+  background-color: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.glass-badge {
+  background-color: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(226, 232, 240, 0.9);
+}
+
+/* Hide scrollbar for category tabs */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
