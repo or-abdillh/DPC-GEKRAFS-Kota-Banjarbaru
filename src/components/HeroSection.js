@@ -36,26 +36,26 @@ export function renderHeroSection() {
           <div class="flex flex-wrap items-center gap-2.5">
             <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold bg-white/10 text-white border border-white/20 backdrop-blur-md shadow-xs">
               <span class="w-2 h-2 rounded-full bg-[#ffcb08] animate-pulse"></span>
-              DPC GEKRAFS Kota Banjarbaru
+              Local IP Powerhouse · Kota Banjarbaru
             </span>
             <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-slate-900/80 text-slate-300 border border-slate-700/80 shadow-xs">
               ${getIcon('shield-check', 'w-3.5 h-3.5 text-[#ffcb08]')}
               UU PDP No. 27/2022 Compliant
             </span>
             <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-amber-500/15 text-amber-300 border border-amber-500/30">
-              ${getIcon('users', 'w-3.5 h-3.5 text-[#ffcb08]')}
-              Organisasi Ekraf Resmi Ibukota Kalsel
+              ${getIcon('layers', 'w-3.5 h-3.5 text-[#ffcb08]')}
+              21 Subsektor Rindekraf
             </span>
           </div>
 
           <!-- Main Display Headline with High Dramatic Contrast -->
           <h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-[1.08]">
-            Satu Pintu Data dan Peluang Ekonomi Kreatif <span class="text-[#ffcb08]">Banjarbaru</span>.
+            Karya Banjarbaru, <span class="text-[#ffcb08]">Nilai yang Tumbuh</span>.
           </h1>
 
           <!-- Body Copy: Concrete, Natural Human Tone (antislop-copywriting) -->
           <p class="text-base sm:text-lg md:text-xl text-slate-300 leading-relaxed max-w-3xl font-normal">
-            Platform resmi DPC GEKRAFS Kota Banjarbaru untuk mengonsolidasikan seluruh 21 subsektor ekraf, kurasi proyek investasi mandiri, dan advokasi kebijakan berbasis data bersama Pemerintah Kota Banjarbaru.
+            Kami memetakan, melindungi, dan mempertemukan karya kreatif Banjarbaru dengan pasar dan modal.
           </p>
 
           <!-- Primary CTA Action Cluster -->
@@ -65,14 +65,14 @@ export function renderHeroSection() {
               type="button" 
               class="inline-flex items-center justify-center gap-2.5 px-7 py-4 text-sm sm:text-base font-bold text-slate-950 bg-[#ffcb08] hover:bg-[#e5b600] active:scale-[0.98] rounded-xl shadow-lg shadow-amber-500/20 transition-all min-h-[44px] min-w-[44px] focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#ffcb08]"
             >
-              ${getIcon('file-text', 'w-5 h-5 text-slate-950')}
-              <span>Daftarkan Usaha Ekraf Anda</span>
+              ${getIcon('users', 'w-5 h-5 text-slate-950')}
+              <span>Gabung Sekarang</span>
             </button>
             <a 
               href="#investasi" 
               class="inline-flex items-center justify-center gap-2 px-6 py-4 text-sm sm:text-base font-semibold text-white bg-white/10 hover:bg-white/20 active:scale-[0.98] border border-white/25 backdrop-blur-xs rounded-xl shadow-sm transition-all min-h-[44px] min-w-[44px] focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white"
             >
-              <span>Eksplorasi Proyek Investasi</span>
+              <span>Jelajahi Siap Tumbuh</span>
               ${getIcon('arrow-right', 'w-4 h-4 text-slate-300')}
             </a>
           </div>
@@ -80,20 +80,20 @@ export function renderHeroSection() {
           <!-- Social Proof & Institutional Trust Strip -->
           <div class="pt-4 flex flex-wrap items-center gap-6 sm:gap-10 text-xs sm:text-sm text-slate-400 border-t border-white/15">
             <div class="flex items-center gap-2.5">
-              <span class="text-lg sm:text-xl font-extrabold text-white">540+</span>
-              <span class="leading-tight">Pelaku Terdata Mandiri</span>
+              <span class="text-lg sm:text-xl font-extrabold text-white">128+</span>
+              <span class="leading-tight">Pelaku Kreatif Terdata</span>
             </div>
             <div class="flex items-center gap-2.5">
-              <span class="text-lg sm:text-xl font-extrabold text-[#ffcb08]">21/21</span>
+              <span class="text-lg sm:text-xl font-extrabold text-[#ffcb08]">21</span>
               <span class="leading-tight">Subsektor Terwakili</span>
             </div>
             <div class="flex items-center gap-2.5">
               <span class="text-lg sm:text-xl font-extrabold text-white">100%</span>
-              <span class="leading-tight">Perlindungan Data Pribadi</span>
+              <span class="leading-tight">Kepatuhan UU PDP</span>
             </div>
             <div class="flex items-center gap-2.5">
               <span class="text-lg sm:text-xl font-extrabold text-white">5</span>
-              <span class="leading-tight">Kecamatan Kota</span>
+              <span class="leading-tight">Kecamatan Banjarbaru</span>
             </div>
           </div>
 
