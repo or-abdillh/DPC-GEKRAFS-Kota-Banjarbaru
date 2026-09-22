@@ -1,48 +1,46 @@
 # Brand Identity & Experience Strategy: DPC GEKRAFS Kota Banjarbaru
 
-> **Document Version:** 1.0.0 | **Status:** Approved | **Last Updated:** 2026-09-22  
+> **Document Version:** 1.1.0 | **Status:** Approved | **Last Updated:** 2026-09-22  
 > **Governing Agent/Role:** Senior Product Designer & Brand Strategist
 
 ### Revision Changelog
 | Version | Date | Author / Role | Changes Summary |
 |---|---|---|---|
+| 1.1.0 | 2026-09-22 | Senior Brand Strategist | Mengintegrasikan positioning Local IP Powerhouse, taksonomi 3 peran (Pelaku, Kawan, Mitra), 4 Kerja Inti, dan pantangan superlatif berbasis docs/Copywriter_and_Content.md |
 | 1.0.0 | 2026-09-22 | Senior Brand Strategist | Inisialisasi identitas brand, positioning, dan tone of voice alami anti-slop sesuai aturan antislop-copywriting |
 
 ---
 
 ## 1. Brand Core & Value Positioning
 
-- **Primary Tagline / Hook:** Satu Pintu Data dan Peluang Ekonomi Kreatif Banjarbaru.
-- **Brand Personality:**
-  - *Kredibel & Berbasis Data:* Menghadirkan kepastian informasi dan validasi resmi bagi pelaku usaha kreatif.
-  - *Progresif & Kolaboratif:* Menghubungkan talenta lintas disiplin dari 21 subsektor dengan pemerintah dan investor.
-  - *Dekat & Terbuka:* Bahasa yang ramah pemuda, solutif, serta mudah diakses oleh pelaku usaha rintisan.
-- **Target Audience Profile:**
-  1. *Pelaku Ekonomi Kreatif & Komunitas Lokal:* Butuh pengakuan resmi, legalitas usaha, jejaring promosi, serta panggung karya.
-  2. *Investor & Mitra Korporasi:* Mencari katalog karya terkurasi dengan prospek bisnis terukur dan kontak kurator yang jelas.
-  3. *Pemerintah Kota Banjarbaru (Pemko):* Membutuhkan data statistik agregat yang akurat untuk penyaluran program dan perumusan kebijakan kota.
-  4. *Publik & Penikmat Seni/Event:* Mencari agenda kalender kreatif terkini dan pendaftaran event kota.
+- **Primary Tagline / Hook:** Karya Banjarbaru, Nilai yang Tumbuh.
+- **Positioning Statement:** Local IP Powerhouse Kota Banjarbaru. Kami memetakan, melindungi, dan mempertemukan karya kreatif Banjarbaru dengan pasar dan modal.
+- **Empat Kerja Inti GEKRAFS Banjarbaru:**
+  1. *01 Petakan:* Mengumpulkan dan memvalidasi data pelaku di 21 subsektor ekraf tanpa retorika kosong.
+  2. *02 Lindungi:* Mengedukasi hak kekayaan intelektual (HAKI) dan menjamin privasi data selaras UU PDP No. 27/2022.
+  3. *03 Pertemukan:* Membuka akses kurasi karya terstandar dengan pemodal, pemilik ruang, dan pasar nasional.
+  4. *04 Tumbuhkan:* Mendampingi peningkatan skala bisnis dari rintisan lokal menjadi aset ekonomi berkelanjutan.
+- **Taksonomi Tiga Peran Ekosistem:**
+  1. *Pelaku Kreatif:* Pemilik karya, studio, atau usaha di 21 subsektor yang membutuhkan pemetaan, proteksi HAKI, dan modal.
+  2. *Kawan Kreatif:* Pengapresiasi, penikmat karya lokal, atau relawan pergerakan kreatif kota.
+  3. *Mitra Ekosistem:* Pemodal/investor, pemilik ruang publik, dinas/pemerintah, dan media peliput.
 - **Tone of Voice & Copywriting Style:**
-  - Lugas, berenergi, dan praktis. Langsung menyampaikan manfaat nyata tanpa jargon teknologi yang abstrak.
-  - Menggunakan kalimat aktif dengan pelaku yang tegas (contoh: "Daftarkan karya Anda", "Kurator GEKRAFS memverifikasi setiap proposal").
-  - Menghindari kata sifat berlebihan atau hiperbola kosong.
+  - Tegas, membumi, berbasis kenyataan empiris. Mengutamakan kejujuran angka riil (contoh: "128 pelaku terdata" alih-alih klaim ribuan palsu).
+  - Menggunakan kalimat aktif dengan aktor yang jelas.
+  - **Pantangan Superlatif:** Haram menggunakan kata *terbesar, terbaik, satu-satunya, terdepan, revolusioner*. Biarkan data dan kurasi yang membuktikan mutu.
 
 ---
 
 ## 2. Customer Sentiment & Emotional Resonance
 
 - **Key Customer Emotions:**
-  - *Rasa Percaya Diri (Pride):* Pelaku lokal bangga bahwa karyanya terdaftar dalam etalase resmi kota dan dilindungi kerahasiaannya.
-  - *Kepastian (Clarity):* Investor mendapatkan angka kebutuhan modal dan tahap bisnis yang transparan tanpa informasi yang berputar-putar.
-  - *Konektivitas (Belonging):* Komunitas merasa memiliki rumah bersama untuk berkolaborasi dan berkembang.
-- **Perceived Strengths to Amplify:**
-  - Dukungan kelembagaan resmi dari skala kota hingga nasional.
-  - Keterwakilan komprehensif 21 subsektor ekraf sesuai regulasi nasional terbaru.
-  - Komitmen perlindungan privasi data pribadi selaras dengan UU PDP.
-- **Authentic Trust Factors:**
-  - Legalitas dan SK Pengurus resmi DPC GEKRAFS Banjarbaru.
-  - Saluran WhatsApp kurator resmi yang responsif untuk konsultasi pelaku usaha.
-  - Dokumentasi kegiatan nyata di Banjarbaru seperti Banua Creative Festival dan kurasi produk UMKM.
+  - *Rasa Percaya Diri (Pride):* Pelaku lokal bangga bahwa karyanya diakui sebagai Kekayaan Intelektual (IP) bernilai, bukan sekadar komoditas murah.
+  - *Kepastian & Keamanan (Clarity & Safety):* Pelaku dan investor merasa aman karena data usaha dienkripsi selaras UU PDP dan skema kerja sama jelas.
+  - *Konektivitas Riil (Belonging):* Komunitas merasakan rantai nilai nyata: DPP Nasional membuka pintu kebijakan, DPD Provinsi memperluas pasar, dan DPC Banjarbaru mengawal di lapangan.
+- **Integritas "Yang Bukan Kami":**
+  - Bukan birokrasi perizinan atau calo bantuan sosial pemerintah.
+  - Bukan ajang formalitas seremonial tanpa tindak lanjut karya.
+  - Bukan pihak yang mengambil alih kepemilikan saham atau bertindak sebagai pihak dalam kesepakatan investasi bisnis.
 
 ---
 
@@ -55,7 +53,7 @@
   - *Midnight Slate (`#0f172a`):* Digunakan untuk headline berbobot dan kanvas gelap pada modul investasi terkurasi.
   - *Studio White & Off-White (`#ffffff` / `#f8fafc`):* Kanvas dasar yang bersih untuk kenyamanan membaca data.
 - **Moodboard Direction:**
-  - Menampilkan studio kerja nyata: perajin purun, pengrajin wastra, barista lokal, kreator konten, dan tim pengembang aplikasi.
+  - Menampilkan studio kerja dan perhimpunan nyata: perajin purun, pengrajin wastra, barista lokal, musisi, desainer grafis, dan rapat kerja organisasi.
   - Tanpa ilustrasi kartun generik; menggunakan fotografi dokumenter beresolusi tinggi dengan komposisi bersih.
 
 ---
