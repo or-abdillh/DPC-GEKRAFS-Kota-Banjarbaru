@@ -1,9 +1,9 @@
 export const subsectorClusters = [
   { id: 'all', name: 'Semua 21 Subsektor' },
   { id: 'seni-budaya', name: 'Seni & Budaya' },
-  { id: 'desain', name: 'Desain & Mode' },
-  { id: 'teknologi-digital', name: 'Teknologi & Digital' },
-  { id: 'media-distribusi', name: 'Media & Kuliner' }
+  { id: 'desain', name: 'Desain' },
+  { id: 'teknologi-digital', name: 'Teknologi & Konten Digital' },
+  { id: 'media-distribusi', name: 'Media & Distribusi' }
 ];
 
 export const subsectorsData = [

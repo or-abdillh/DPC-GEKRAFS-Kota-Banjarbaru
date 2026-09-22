@@ -20,13 +20,14 @@ export function renderSubsectorNavigator() {
         <div>
           <div class="flex items-center gap-2">
             <span class="inline-block w-2.5 h-2.5 rounded-full bg-[#ffcb08] animate-pulse"></span>
-            <span class="text-xs font-bold uppercase tracking-widest text-[#ffcb08]">Navigator Interaktif Kota</span>
+            <span class="text-xs font-bold uppercase tracking-widest text-[#ffcb08]">21 Subsektor Ekonomi Kreatif</span>
           </div>
-          <h3 class="text-lg sm:text-xl font-extrabold tracking-tight text-white mt-1">Pemetaan 21 Subsektor Ekraf Banjarbaru</h3>
+          <h3 class="text-lg sm:text-2xl font-extrabold tracking-tight text-white mt-1">Apa pun karyamu, ada tempatnya di sini.</h3>
+          <p class="text-xs text-slate-300 mt-0.5 font-normal">Mengacu pada Rencana Induk Ekonomi Kreatif (Rindekraf) 2026–2045, dikelompokkan dalam empat klaster.</p>
         </div>
         <div class="flex items-center gap-2 text-xs font-medium text-slate-300 bg-slate-800/80 px-3.5 py-1.5 rounded-full border border-slate-700">
           ${getIcon('shield-check', 'w-4 h-4 text-[#ffcb08]')}
-          <span>Sesuai Rindekraf Perpres No. 37/2026</span>
+          <span>Rindekraf Perpres No. 37/2026</span>
         </div>
       </div>
 

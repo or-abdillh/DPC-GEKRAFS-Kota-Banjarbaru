@@ -19,18 +19,18 @@ export function renderNavbar() {
           <!-- Desktop Navigation -->
           <nav class="hidden lg:flex items-center gap-1 xl:gap-2" aria-label="Navigasi Utama">
             <a href="#subsektor" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-[#0873a6] hover:bg-slate-100/80 rounded-lg transition-colors min-h-[44px] flex items-center">21 Subsektor</a>
-            <a href="#data" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-[#0873a6] hover:bg-slate-100/80 rounded-lg transition-colors min-h-[44px] flex items-center">Data Publik</a>
-            <a href="#pemetaan" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-[#0873a6] hover:bg-slate-100/80 rounded-lg transition-colors min-h-[44px] flex items-center">Pemetaan Mandiri</a>
-            <a href="#investasi" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-[#0873a6] hover:bg-slate-100/80 rounded-lg transition-colors min-h-[44px] flex items-center">Peluang Investasi</a>
-            <a href="#event" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-[#0873a6] hover:bg-slate-100/80 rounded-lg transition-colors min-h-[44px] flex items-center">Agenda Event</a>
-            <a href="#organisasi" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-[#0873a6] hover:bg-slate-100/80 rounded-lg transition-colors min-h-[44px] flex items-center">Kelembagaan</a>
+            <a href="#data" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-[#0873a6] hover:bg-slate-100/80 rounded-lg transition-colors min-h-[44px] flex items-center">Angka Ekosistem</a>
+            <a href="#pemetaan" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-[#0873a6] hover:bg-slate-100/80 rounded-lg transition-colors min-h-[44px] flex items-center">Pilih Peran</a>
+            <a href="#investasi" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-[#0873a6] hover:bg-slate-100/80 rounded-lg transition-colors min-h-[44px] flex items-center">Siap Tumbuh</a>
+            <a href="#event" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-[#0873a6] hover:bg-slate-100/80 rounded-lg transition-colors min-h-[44px] flex items-center">Agenda</a>
+            <a href="#organisasi" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-[#0873a6] hover:bg-slate-100/80 rounded-lg transition-colors min-h-[44px] flex items-center">Tentang</a>
           </nav>
 
           <!-- Action Cluster -->
           <div class="hidden sm:flex items-center gap-3">
             <button id="btn-nav-register" class="inline-flex items-center justify-center gap-2 px-5 py-2.5 text-sm font-semibold text-white bg-[#0873a6] hover:bg-[#065b84] active:scale-[0.98] rounded-xl shadow-sm transition-all duration-200 min-h-[44px] min-w-[44px] focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#0873a6]">
-              ${getIcon('file-text', 'w-4 h-4 text-white')}
-              <span>Daftarkan Usaha</span>
+              ${getIcon('users', 'w-4 h-4 text-white')}
+              <span>Gabung Sekarang</span>
             </button>
           </div>
 
@@ -47,15 +47,15 @@ export function renderNavbar() {
       <!-- Mobile Navigation Drawer -->
       <div id="mobile-menu-drawer" class="hidden lg:hidden border-t border-slate-200 bg-white/95 backdrop-blur-xl px-4 pt-3 pb-6 space-y-2 shadow-xl">
         <a href="#subsektor" class="mobile-nav-link block px-4 py-3 text-base font-semibold text-slate-800 hover:bg-slate-50 hover:text-[#0873a6] rounded-xl transition-colors min-h-[44px]">21 Subsektor Ekraf</a>
-        <a href="#data" class="mobile-nav-link block px-4 py-3 text-base font-semibold text-slate-800 hover:bg-slate-50 hover:text-[#0873a6] rounded-xl transition-colors min-h-[44px]">Data & Analitik Publik</a>
-        <a href="#pemetaan" class="mobile-nav-link block px-4 py-3 text-base font-semibold text-slate-800 hover:bg-slate-50 hover:text-[#0873a6] rounded-xl transition-colors min-h-[44px]">Pemetaan Mandiri (UU PDP)</a>
-        <a href="#investasi" class="mobile-nav-link block px-4 py-3 text-base font-semibold text-slate-800 hover:bg-slate-50 hover:text-[#0873a6] rounded-xl transition-colors min-h-[44px]">Direktori Investasi</a>
-        <a href="#event" class="mobile-nav-link block px-4 py-3 text-base font-semibold text-slate-800 hover:bg-slate-50 hover:text-[#0873a6] rounded-xl transition-colors min-h-[44px]">Kalender Event Kota</a>
-        <a href="#organisasi" class="mobile-nav-link block px-4 py-3 text-base font-semibold text-slate-800 hover:bg-slate-50 hover:text-[#0873a6] rounded-xl transition-colors min-h-[44px]">Profil Pengurus DPC</a>
+        <a href="#data" class="mobile-nav-link block px-4 py-3 text-base font-semibold text-slate-800 hover:bg-slate-50 hover:text-[#0873a6] rounded-xl transition-colors min-h-[44px]">Angka Ekosistem Banjarbaru</a>
+        <a href="#pemetaan" class="mobile-nav-link block px-4 py-3 text-base font-semibold text-slate-800 hover:bg-slate-50 hover:text-[#0873a6] rounded-xl transition-colors min-h-[44px]">Pilih Peranmu (Registrasi)</a>
+        <a href="#investasi" class="mobile-nav-link block px-4 py-3 text-base font-semibold text-slate-800 hover:bg-slate-50 hover:text-[#0873a6] rounded-xl transition-colors min-h-[44px]">Siap Tumbuh (Mitra & Modal)</a>
+        <a href="#event" class="mobile-nav-link block px-4 py-3 text-base font-semibold text-slate-800 hover:bg-slate-50 hover:text-[#0873a6] rounded-xl transition-colors min-h-[44px]">Agenda Ekosistem</a>
+        <a href="#organisasi" class="mobile-nav-link block px-4 py-3 text-base font-semibold text-slate-800 hover:bg-slate-50 hover:text-[#0873a6] rounded-xl transition-colors min-h-[44px]">Tentang GEKRAFS Banjarbaru</a>
         <div class="pt-2">
           <button id="btn-mobile-nav-register" class="w-full inline-flex items-center justify-center gap-2 px-5 py-3.5 text-base font-bold text-white bg-[#0873a6] hover:bg-[#065b84] rounded-xl shadow-md transition-colors min-h-[44px]">
-            ${getIcon('file-text', 'w-5 h-5 text-white')}
-            <span>Daftarkan Usaha Ekraf Anda</span>
+            ${getIcon('users', 'w-5 h-5 text-white')}
+            <span>Gabung Sekarang</span>
           </button>
         </div>
       </div>
