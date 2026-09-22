@@ -123,9 +123,16 @@ export function renderConversionFooter() {
         </div>
 
         <!-- Copyright Bottom -->
-        <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <p>© 2026 DPC GEKRAFS Kota Banjarbaru. Gerakan Ekonomi Kreatif Nasional.</p>
-          <p>Banjarbaru, Ibukota Provinsi Kalimantan Selatan (UU No. 8/2022)</p>
+        <div class="pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+          <div class="space-y-1 text-center md:text-left">
+            <p>© 2026 DPC GEKRAFS Kota Banjarbaru. Gerakan Ekonomi Kreatif Nasional.</p>
+            <p class="text-[11px] text-slate-500">Banjarbaru, Ibukota Provinsi Kalimantan Selatan (UU No. 8/2022)</p>
+          </div>
+          
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900/90 border border-slate-800 text-xs text-slate-400 shadow-sm">
+            <span class="w-1.5 h-1.5 rounded-full bg-[#ffcb08]"></span>
+            <span>Website In Collaboration with <a href="https://digitaliz.id/" target="_blank" rel="noopener noreferrer" class="text-white font-bold tracking-wide hover:text-[#ffcb08] hover:underline transition-colors focus:outline-none focus-visible:ring-1 focus-visible:ring-[#ffcb08] rounded">Digitaliz</a></span>
+          </div>
         </div>
 
       </div>
