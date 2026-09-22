@@ -8,28 +8,115 @@ export function renderRegistrationStepper() {
   const formData = state.stepper.formData;
 
   const stepsMeta = [
-    { num: 1, title: 'Identitas Usaha', desc: 'Nama brand & domisili' },
+    { num: 1, title: 'Identitas Karya', desc: 'Nama brand & domisili' },
     { num: 2, title: 'Subsektor & Skala', desc: 'Klasifikasi 21 sektor' },
-    { num: 3, title: 'Legalitas', desc: 'NIB, HKI & Izin' },
-    { num: 4, title: 'Arah Karya', desc: 'Kebutuhan dukungan' },
-    { num: 5, title: 'Konsen UU PDP', desc: 'Persetujuan data aman' }
+    { num: 3, title: 'Legalitas Karya', desc: 'NIB, HKI & Merek' },
+    { num: 4, title: 'Arah Karya', desc: 'Kebutuhan pengembangan' },
+    { num: 5, title: 'Persetujuan Data', desc: 'Konsen UU PDP' }
   ];
 
   return `
     <section id="pemetaan" class="py-16 md:py-24 bg-white border-b border-slate-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <!-- Section Header -->
-        <div class="max-w-3xl mb-12 space-y-3">
+        <!-- Section Header: Pilih Peranmu -->
+        <div class="max-w-3xl mb-10 space-y-3">
           <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold bg-[#0873a6]/10 text-[#0873a6]">
-            ${getIcon('file-text', 'w-3.5 h-3.5')}
-            <span>Portal Pelaku Ekraf Mandiri (EPIC 1)</span>
+            ${getIcon('users', 'w-3.5 h-3.5')}
+            <span>Pilih Peranmu</span>
           </div>
           <h2 class="text-2xl sm:text-4xl font-extrabold tracking-tight text-slate-900 leading-tight">
-            Formulir Pemetaan 5 Tahap Berstandar UU PDP
+            Masuk sebagai siapa?
           </h2>
           <p class="text-sm sm:text-base text-slate-600 leading-relaxed">
-            Data Anda sepenuhnya dikelola secara mandiri (<span class="font-bold text-slate-800">Self-Service</span>). Hanya data terkurasi dan agregat anonim yang dipublikasikan demi menjaga kerahasiaan bisnis pelaku kreatif Banjarbaru.
+            Setiap orang punya perannya dalam ekosistem kreatif Banjarbaru.
+          </p>
+        </div>
+
+        <!-- 3 Role Cards (Pelaku Kreatif, Kawan Kreatif, Mitra Ekosistem) -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
+          
+          <!-- Card 1: Pelaku Kreatif -->
+          <div class="bg-slate-50 p-6 rounded-3xl border border-slate-200 shadow-xs flex flex-col justify-between hover:border-[#0873a6] transition-all group">
+            <div>
+              <div class="w-10 h-10 rounded-2xl bg-blue-100 text-[#0873a6] flex items-center justify-center mb-4">
+                ${getIcon('file-text', 'w-5 h-5')}
+              </div>
+              <h3 class="text-lg font-bold text-slate-900 group-hover:text-[#0873a6] transition-colors">Pelaku Kreatif</h3>
+              <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+                Kamu berkarya atau menjalankan usaha kreatif di Banjarbaru.
+              </p>
+              <ul class="mt-4 space-y-2 text-xs text-slate-500">
+                <li class="flex items-center gap-2">${getIcon('check', 'w-3.5 h-3.5 text-[#0873a6]')} Profil & etalase karya</li>
+                <li class="flex items-center gap-2">${getIcon('check', 'w-3.5 h-3.5 text-[#0873a6]')} Masuk peta ekonomi kreatif kota</li>
+                <li class="flex items-center gap-2">${getIcon('check', 'w-3.5 h-3.5 text-[#0873a6]')} Peluang masuk Siap Tumbuh</li>
+              </ul>
+            </div>
+            <div class="pt-6">
+              <a href="#stepper-card" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 text-xs font-bold text-white bg-[#0873a6] hover:bg-[#065b84] rounded-xl shadow-xs transition-colors min-h-[44px]">
+                <span>Daftar sebagai Pelaku</span>
+                ${getIcon('arrow-right', 'w-3.5 h-3.5')}
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 2: Kawan Kreatif -->
+          <div class="bg-slate-50 p-6 rounded-3xl border border-slate-200 shadow-xs flex flex-col justify-between hover:border-amber-500 transition-all group">
+            <div>
+              <div class="w-10 h-10 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center mb-4">
+                ${getIcon('heart', 'w-5 h-5')}
+              </div>
+              <h3 class="text-lg font-bold text-slate-900 group-hover:text-amber-700 transition-colors">Kawan Kreatif</h3>
+              <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+                Kamu menikmati, mengikuti, dan ingin mendukung karya lokal.
+              </p>
+              <ul class="mt-4 space-y-2 text-xs text-slate-500">
+                <li class="flex items-center gap-2">${getIcon('check', 'w-3.5 h-3.5 text-amber-600')} Simpan karya favorit</li>
+                <li class="flex items-center gap-2">${getIcon('check', 'w-3.5 h-3.5 text-amber-600')} Ikuti pelaku kreatif Banjarbaru</li>
+                <li class="flex items-center gap-2">${getIcon('check', 'w-3.5 h-3.5 text-amber-600')} Kabar dan agenda lebih dulu</li>
+              </ul>
+            </div>
+            <div class="pt-6">
+              <a href="#event" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 text-xs font-bold text-slate-900 bg-[#ffcb08] hover:bg-[#e5b600] rounded-xl shadow-xs transition-colors min-h-[44px]">
+                <span>Daftar sebagai Kawan</span>
+                ${getIcon('arrow-right', 'w-3.5 h-3.5')}
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 3: Mitra Ekosistem -->
+          <div class="bg-slate-50 p-6 rounded-3xl border border-slate-200 shadow-xs flex flex-col justify-between hover:border-slate-800 transition-all group">
+            <div>
+              <div class="w-10 h-10 rounded-2xl bg-slate-200 text-slate-800 flex items-center justify-center mb-4">
+                ${getIcon('building', 'w-5 h-5')}
+              </div>
+              <h3 class="text-lg font-bold text-slate-900 group-hover:text-slate-800 transition-colors">Mitra Ekosistem</h3>
+              <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+                Kamu mewakili lembaga, perusahaan, kampus, atau investor.
+              </p>
+              <ul class="mt-4 space-y-2 text-xs text-slate-500">
+                <li class="flex items-center gap-2">${getIcon('check', 'w-3.5 h-3.5 text-slate-700')} Akses karya Siap Tumbuh</li>
+                <li class="flex items-center gap-2">${getIcon('check', 'w-3.5 h-3.5 text-slate-700')} Jadwalkan pertemuan bisnis</li>
+                <li class="flex items-center gap-2">${getIcon('check', 'w-3.5 h-3.5 text-slate-700')} Kolaborasi program kemitraan</li>
+              </ul>
+            </div>
+            <div class="pt-6">
+              <a href="#investasi" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 text-xs font-bold text-slate-800 bg-white border border-slate-300 hover:bg-slate-100 rounded-xl shadow-xs transition-colors min-h-[44px]">
+                <span>Ajukan Kemitraan</span>
+                ${getIcon('arrow-right', 'w-3.5 h-3.5')}
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Stepper Header: Formulir Pemetaan Pelaku Kreatif -->
+        <div class="max-w-3xl mb-8 space-y-2">
+          <h3 class="text-xl sm:text-2xl font-bold tracking-tight text-slate-900">
+            Formulir Pemetaan Pelaku Kreatif (5 Bagian)
+          </h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            Data Anda dikelola secara mandiri selaras UU Perlindungan Data Pribadi No. 27/2022. Hanya data terkurasi dan agregat anonim yang dipublikasikan.
           </p>
         </div>
 
