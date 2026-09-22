@@ -18,18 +18,18 @@ export function renderConversionFooter() {
       <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/90 to-[#0873a6]/85"></div>
       <div class="absolute inset-0 bg-radial-gradient from-transparent via-slate-950/60 to-slate-950/90"></div>
 
-      <div class="relative z-10 max-w-5xl mx-auto text-center space-y-6">
+      <div class="relative z-10 max-w-4xl mx-auto text-center space-y-6">
         <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold bg-[#ffcb08] text-slate-950 shadow-md">
           ${getIcon('users', 'w-3.5 h-3.5 text-slate-950')}
-          <span>Gerakan Bersama Pelaku Kreatif Kota Banjarbaru</span>
+          <span>Local IP Powerhouse · Kota Banjarbaru</span>
         </div>
 
         <h2 class="text-2xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-white leading-tight">
-          Menjadi Bagian dari Gerakan Ekonomi Kreatif Terbesar di Banjarbaru
+          Karya Banjarbaru layak dicatat.
         </h2>
 
-        <p class="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed">
-          Daftarkan karya Anda hari ini, perkuat perlindungan data usaha selaras UU PDP, dan dapatkan akses prioritas ke program kurasi investasi serta pameran tahunan kota.
+        <p class="text-base sm:text-lg text-slate-200 max-w-2xl mx-auto leading-relaxed font-medium">
+          Mulai dari satu profil. Kami bantu sisanya.
         </p>
 
         <div class="flex flex-wrap items-center justify-center gap-4 pt-2">
@@ -38,18 +38,16 @@ export function renderConversionFooter() {
             type="button" 
             class="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm sm:text-base font-bold text-slate-950 bg-[#ffcb08] hover:bg-[#e5b600] active:scale-[0.98] rounded-xl shadow-lg transition-all min-h-[44px]"
           >
-            ${getIcon('file-text', 'w-5 h-5 text-slate-950')}
-            <span>Daftarkan Usaha Ekraf Anda Sekarang</span>
+            ${getIcon('user-check', 'w-5 h-5 text-slate-950')}
+            <span>Gabung Sekarang</span>
           </button>
           
           <a 
-            href="https://wa.me/628115002121?text=Halo%20Sekretariat%20DPC%20GEKRAFS%20Banjarbaru,%20saya%20ingin%20bergabung%20dengan%20komunitas%20dan%20jejaring%20ekraf" 
-            target="_blank" 
-            rel="noopener noreferrer"
+            href="#siap-tumbuh"
             class="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm sm:text-base font-semibold text-white bg-white/10 hover:bg-white/20 active:scale-[0.98] border border-white/30 rounded-xl backdrop-blur-sm transition-all min-h-[44px]"
           >
-            ${getIcon('phone', 'w-4 h-4 text-[#ffcb08]')}
-            <span>Hubungi Sekretariat DPC</span>
+            ${getIcon('sparkles', 'w-4 h-4 text-[#ffcb08]')}
+            <span>Jelajahi Siap Tumbuh</span>
           </a>
         </div>
       </div>
@@ -72,21 +70,21 @@ export function renderConversionFooter() {
             </div>
             
             <p class="text-xs sm:text-sm text-slate-400 leading-relaxed max-w-md">
-              Satu pintu data dan peluang bagi pelaku ekonomi kreatif Banjarbaru. Memetakan 21 subsektor ekraf, membuka kurasi investasi, dan kalender program kota selaras UU PDP No. 27/2022.
+              Satu pintu data dan jejaring karya kreatif Banjarbaru. Memetakan 21 subsektor ekraf, membuka kurasi program Siap Tumbuh, dan agenda kolaborasi kota selaras UU PDP No. 27/2022.
             </p>
 
             <div class="space-y-2 pt-2 text-xs text-slate-400">
               <div class="flex items-start gap-2.5">
                 ${getIcon('map-pin', 'w-4 h-4 text-[#ffcb08] shrink-0 mt-0.5')}
-                <span>Sekretariat Banjarbaru Creative Hub, Jl. Panglima Batur / Taman Murjani, Kota Banjarbaru, Kalimantan Selatan 70714</span>
+                <span>Sekretariat DPC GEKRAFS Banjarbaru, Jl. Panglima Batur / Taman Murjani, Kota Banjarbaru, Kalimantan Selatan 70714</span>
               </div>
               <div class="flex items-center gap-2.5">
                 ${getIcon('phone', 'w-4 h-4 text-[#ffcb08] shrink-0')}
-                <span>WhatsApp Hotline: +62 811-500-2121</span>
+                <span>WhatsApp Sekretariat: +62 811-500-2121</span>
               </div>
               <div class="flex items-center gap-2.5">
                 ${getIcon('mail', 'w-4 h-4 text-[#ffcb08] shrink-0')}
-                <span>Email Resmi: halo@gekrafsbjb.com</span>
+                <span>Email: halo@gekrafsbjb.com</span>
               </div>
             </div>
           </div>
@@ -96,28 +94,29 @@ export function renderConversionFooter() {
             <h4 class="text-xs font-bold uppercase tracking-widest text-[#ffcb08]">Navigasi Portal</h4>
             <ul class="space-y-2 text-xs sm:text-sm text-slate-400">
               <li><a href="#subsektor" class="hover:text-white transition-colors">21 Subsektor Ekraf</a></li>
-              <li><a href="#data" class="hover:text-white transition-colors">Dasbor Analitik Publik</a></li>
-              <li><a href="#pemetaan" class="hover:text-white transition-colors">Pemetaan Usaha Mandiri</a></li>
-              <li><a href="#investasi" class="hover:text-white transition-colors">Direktori Open for Investment</a></li>
-              <li><a href="#event" class="hover:text-white transition-colors">Kalender Event Kota</a></li>
-              <li><a href="#organisasi" class="hover:text-white transition-colors">Struktur Pengurus DPC</a></li>
+              <li><a href="#data" class="hover:text-white transition-colors">Angka Ekosistem</a></li>
+              <li><a href="#peran" class="hover:text-white transition-colors">Pilih Peran</a></li>
+              <li><a href="#siap-tumbuh" class="hover:text-white transition-colors">Siap Tumbuh</a></li>
+              <li><a href="#agenda" class="hover:text-white transition-colors">Agenda Kota</a></li>
+              <li><a href="#organisasi" class="hover:text-white transition-colors">Tentang GEKRAFS</a></li>
             </ul>
           </div>
 
-          <!-- Column 3: Governance & Security -->
+          <!-- Column 3: Governance, National Affiliation & Privacy -->
           <div class="lg:col-span-4 space-y-4">
-            <h4 class="text-xs font-bold uppercase tracking-widest text-[#ffcb08]">Tata Kelola & Privasi Data</h4>
+            <h4 class="text-xs font-bold uppercase tracking-widest text-[#ffcb08]">Jejaring Nasional & Privasi</h4>
             <div class="p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-400 space-y-2">
               <div class="flex items-center gap-2 text-emerald-400 font-bold">
                 ${getIcon('lock', 'w-4 h-4')}
-                <span>Data Milik Pelaku Usaha</span>
+                <span>Data Aman Selaras UU PDP</span>
               </div>
               <p class="leading-relaxed">
-                Seluruh data pribadi kontak perseorangan dienkripsi dan tidak dipublikasikan ke umum selaras dengan ketentuan UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP).
+                Data publik hanya memuat profil karya yang disetujui. Kontak pribadi dan data sensitif dienkripsi dan tidak disebarluaskan tanpa persetujuan tertulis.
               </p>
             </div>
-            <div class="text-[11px] text-slate-500">
-              Domain Resmi: <code class="text-slate-300">gekrafsbjb.com</code> • Diinisiasi Bidang Pengembangan Teknologi & Transformasi Digital DPC GEKRAFS Banjarbaru.
+            <div class="text-[11px] text-slate-500 space-y-1">
+              <div>Portal Resmi DPC GEKRAFS Kota Banjarbaru: <code class="text-slate-300">gekrafsbjb.com</code></div>
+              <div>Afiliasi Nasional: <a href="https://gekrafs.com" target="_blank" rel="noopener noreferrer" class="text-[#1495c9] hover:underline font-semibold">DPP GEKRAFS (gekrafs.com)</a></div>
             </div>
           </div>
 
@@ -126,7 +125,7 @@ export function renderConversionFooter() {
         <!-- Copyright Bottom -->
         <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <p>© 2026 DPC GEKRAFS Kota Banjarbaru. Gerakan Ekonomi Kreatif Nasional.</p>
-          <p>Banjarbaru — Ibukota Provinsi Kalimantan Selatan (UU No. 8/2022)</p>
+          <p>Banjarbaru, Ibukota Provinsi Kalimantan Selatan (UU No. 8/2022)</p>
         </div>
 
       </div>
@@ -134,16 +133,16 @@ export function renderConversionFooter() {
       <!-- Floating WhatsApp Action Button (Mobile-friendly, 44x44px safe touch) -->
       <aside class="fixed bottom-5 right-5 z-50">
         <a 
-          href="https://wa.me/628115002121?text=Halo%20Sekretariat%20DPC%20GEKRAFS%20Banjarbaru,%20saya%20ingin%20berkonsultasi%20seputar%20pelaku%20ekraf%20dan%20investasi" 
+          href="https://wa.me/628115002121?text=Halo%20Sekretariat%20DPC%20GEKRAFS%20Banjarbaru,%20saya%20ingin%20berkonsultasi%20seputar%20pelaku%20kreatif%20dan%20jejaring%20ekosistem" 
           target="_blank" 
           rel="noopener noreferrer"
           class="flex items-center gap-2.5 px-4 py-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-full shadow-2xl transition-transform hover:scale-105 active:scale-95 border-2 border-white/20 min-h-[48px] min-w-[48px]"
-          aria-label="Hubungi WhatsApp Kurator DPC GEKRAFS Banjarbaru"
+          aria-label="Hubungi WhatsApp Sekretariat DPC GEKRAFS Banjarbaru"
         >
           <span class="p-1 rounded-full bg-emerald-500">
             ${getIcon('phone', 'w-5 h-5 text-white')}
           </span>
-          <span class="text-xs sm:text-sm font-bold pr-1">Hotline Kurator Ekraf</span>
+          <span class="text-xs sm:text-sm font-bold pr-1">Kontak Sekretariat</span>
         </a>
       </aside>
     </footer>

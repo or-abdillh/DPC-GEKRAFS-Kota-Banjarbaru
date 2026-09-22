@@ -15,17 +15,17 @@ export function renderEventCalendar() {
           <div class="max-w-2xl space-y-3">
             <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold bg-[#0873a6]/10 text-[#0873a6]">
               ${getIcon('calendar', 'w-3.5 h-3.5')}
-              <span>Kalender Kreatif Kota (EPIC 3)</span>
+              <span>Agenda Ekosistem</span>
             </div>
             <h2 class="text-2xl sm:text-4xl font-extrabold tracking-tight text-slate-900 leading-tight">
-              Agenda Program & Festival Ekraf Banjarbaru
+              Agenda terdekat.
             </h2>
             <p class="text-sm sm:text-base text-slate-600 leading-relaxed">
-              Jadwal festival kota, workshop sertifikasi kelembagaan, pameran kriya, dan dokumentasi pencapaian kegiatan kreatif yang telah terlaksana.
+              Pameran, temu pelaku, kurasi, dan kolaborasi di Banjarbaru.
             </p>
           </div>
 
-          <!-- Tab Switcher (FR-3.1 vs FR-3.2) -->
+          <!-- Tab Switcher -->
           <div class="inline-flex p-1.5 bg-slate-200/80 rounded-2xl border border-slate-300/80 self-start md:self-auto">
             <button 
               type="button" 
@@ -36,7 +36,7 @@ export function renderEventCalendar() {
                   : 'text-slate-700 hover:text-slate-900 hover:bg-slate-100'
               }"
             >
-              Agenda Mendatang (Pra-Acara)
+              Mendatang
             </button>
             <button 
               type="button" 
@@ -47,7 +47,7 @@ export function renderEventCalendar() {
                   : 'text-slate-700 hover:text-slate-900 hover:bg-slate-100'
               }"
             >
-              Rekap & Dokumentasi (Pasca-Acara)
+              Selesai (Dokumentasi)
             </button>
           </div>
         </div>

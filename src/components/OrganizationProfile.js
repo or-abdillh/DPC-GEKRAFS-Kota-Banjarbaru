@@ -37,85 +37,127 @@ export function renderOrganizationProfile() {
     <section id="organisasi" class="py-16 md:py-24 bg-white border-b border-slate-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <!-- Section Header -->
+        <!-- Section Header: Tentang Kami -->
         <div class="max-w-3xl mb-12 space-y-3">
           <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold bg-[#0873a6]/10 text-[#0873a6]">
             ${getIcon('building', 'w-3.5 h-3.5')}
-            <span>Profil Kelembagaan Resmi (EPIC 5)</span>
+            <span>Tentang Kami</span>
           </div>
           <h2 class="text-2xl sm:text-4xl font-extrabold tracking-tight text-slate-900 leading-tight">
-            Dewan Pimpinan Cabang GEKRAFS Kota Banjarbaru
+            Bagian dari gerakan nasional, bekerja untuk Banjarbaru.
           </h2>
           <p class="text-sm sm:text-base text-slate-600 leading-relaxed">
-            Wadah pergerakan resmi bagi talenta kreatif, perumus kebijakan, dan investor untuk membangun ekosistem ekonomi kreatif yang berdaya saing di Ibukota Kalimantan Selatan.
+            GEKRAFS Banjarbaru adalah Dewan Pimpinan Cabang Gerakan Ekonomi Kreatif Nasional di Kota Banjarbaru. Kami fokus pada satu hal: membantu karya kreatif lokal tumbuh menjadi kekayaan intelektual yang bernilai dan berkelanjutan sebagai usaha.
           </p>
         </div>
 
-        <!-- Vision, Mission & Legal Grid -->
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-16">
+        <!-- Konektivitas Nasional: 3-Tier Hierarchy & 3 Manfaat Nyata -->
+        <div class="mb-14 p-6 sm:p-8 bg-slate-50 rounded-3xl border border-slate-200">
+          <div class="flex items-center gap-2 mb-4">
+            <span class="w-2.5 h-2.5 rounded-full bg-[#0873a6]"></span>
+            <span class="text-xs font-bold uppercase tracking-wider text-[#0873a6]">Konektivitas Tiga Tingkat</span>
+          </div>
           
-          <!-- Vision Card with Real Assembly Backdrop -->
-          <div class="relative lg:col-span-5 rounded-3xl overflow-hidden shadow-xl border border-slate-800 flex flex-col justify-between group min-h-[380px]">
-            <!-- Assembly Photo Background -->
-            <img 
-              src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80" 
-              alt="Suasana Konferensi dan Sidang Anggota DPC GEKRAFS Banjarbaru" 
-              class="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
-              loading="lazy"
-            />
-            <!-- Deep Scrim (WCAG Contrast 18:1) -->
-            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/90 to-slate-950/80"></div>
-
-            <div class="relative z-10 p-6 sm:p-8 space-y-4 text-white">
-              <div class="flex items-center gap-2">
-                <span class="w-2.5 h-2.5 rounded-full bg-[#ffcb08]"></span>
-                <span class="text-xs font-bold uppercase tracking-wider text-[#ffcb08]">Visi Organisasi</span>
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+            
+            <!-- Tier Diagram -->
+            <div class="lg:col-span-5 space-y-2">
+              <div class="p-3.5 bg-white rounded-2xl border border-slate-200 flex items-center justify-between shadow-xs">
+                <span class="text-xs font-bold text-slate-900">DPP GEKRAFS</span>
+                <span class="text-[11px] text-slate-500 font-medium">Tingkat Nasional</span>
               </div>
-              <blockquote class="text-lg sm:text-xl font-bold tracking-tight text-slate-100 leading-relaxed">
-                "${organizationData.vision}"
-              </blockquote>
+              <div class="text-center text-slate-400 text-xs leading-none">↓</div>
+              <div class="p-3.5 bg-white rounded-2xl border border-slate-200 flex items-center justify-between shadow-xs">
+                <span class="text-xs font-bold text-slate-900">DPD GEKRAFS Kalsel</span>
+                <span class="text-[11px] text-slate-500 font-medium">Tingkat Provinsi</span>
+              </div>
+              <div class="text-center text-slate-400 text-xs leading-none">↓</div>
+              <div class="p-3.5 bg-[#0873a6] text-white rounded-2xl border border-[#0873a6] flex items-center justify-between shadow-md">
+                <span class="text-xs font-bold text-white">DPC GEKRAFS Banjarbaru</span>
+                <span class="text-[11px] text-blue-100 font-semibold">Tingkat Kota / Lapangan</span>
+              </div>
             </div>
 
-            <div class="relative z-10 p-6 sm:p-8 pt-0 border-t border-slate-800/80 space-y-2">
-              <span class="text-xs text-slate-400 block font-medium">Dasar Legalitas & Surat Keputusan:</span>
-              <div class="text-xs font-semibold text-[#1495c9] bg-slate-900/90 p-3 rounded-xl border border-slate-700/80">
-                ${organizationData.legalReference}
+            <!-- 3 Concrete Benefits -->
+            <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <div class="p-4 bg-white rounded-2xl border border-slate-200/80 space-y-1.5 shadow-xs">
+                <div class="w-7 h-7 rounded-xl bg-blue-50 text-[#0873a6] flex items-center justify-center">
+                  ${getIcon('globe', 'w-4 h-4')}
+                </div>
+                <h4 class="text-xs font-bold text-slate-900">Jaringan</h4>
+                <p class="text-[11px] text-slate-500 leading-relaxed">Akses ke pelaku dan program GEKRAFS di berbagai daerah Indonesia.</p>
               </div>
-              <p class="text-[11px] text-slate-400 leading-normal pt-1">
-                Berkoordinasi aktif dengan Disporabudpar dan Pemerintah Kota Banjarbaru.
-              </p>
+              
+              <div class="p-4 bg-white rounded-2xl border border-slate-200/80 space-y-1.5 shadow-xs">
+                <div class="w-7 h-7 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center">
+                  ${getIcon('external-link', 'w-4 h-4')}
+                </div>
+                <h4 class="text-xs font-bold text-slate-900">Etalase Nasional</h4>
+                <p class="text-[11px] text-slate-500 leading-relaxed">Karya terpilih dapat tampil di direktori gekrafs.com.</p>
+              </div>
+              
+              <div class="p-4 bg-white rounded-2xl border border-slate-200/80 space-y-1.5 shadow-xs">
+                <div class="w-7 h-7 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center">
+                  ${getIcon('trending-up', 'w-4 h-4')}
+                </div>
+                <h4 class="text-xs font-bold text-slate-900">Suara Daerah</h4>
+                <p class="text-[11px] text-slate-500 leading-relaxed">Data Banjarbaru ikut menjadi masukan kebijakan ekonomi kreatif.</p>
+              </div>
             </div>
+
+          </div>
+        </div>
+
+        <!-- Empat Kerja Inti: Dari karya menjadi aset, dalam empat langkah -->
+        <div class="mb-14">
+          <div class="max-w-2xl mb-6">
+            <h3 class="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
+              Dari karya menjadi aset, dalam empat langkah.
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-500 mt-1">
+              Empat kerja terstruktur yang dijalankan secara konsisten oleh pengurus DPC GEKRAFS Banjarbaru.
+            </p>
           </div>
 
-          <!-- Missions List -->
-          <div class="lg:col-span-7 bg-slate-50 p-6 sm:p-8 rounded-3xl border border-slate-200 flex flex-col justify-between space-y-6">
-            <div>
-              <h3 class="text-lg font-bold text-slate-900 mb-4 flex items-center gap-2">
-                ${getIcon('check-circle', 'w-5 h-5 text-[#0873a6]')}
-                <span>Misi Strategis DPC GEKRAFS Banjarbaru</span>
-              </h3>
-              <div class="space-y-3">
-                ${organizationData.mission.map((m, idx) => `
-                  <div class="flex items-start gap-3 p-3.5 bg-white rounded-2xl border border-slate-200/80 shadow-xs">
-                    <span class="w-6 h-6 rounded-full bg-blue-50 text-[#0873a6] text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">
-                      ${idx + 1}
-                    </span>
-                    <p class="text-xs sm:text-sm text-slate-700 leading-relaxed font-medium">
-                      ${m}
-                    </p>
-                  </div>
-                `).join('')}
-              </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div class="p-5 bg-slate-50 rounded-2xl border border-slate-200 space-y-2">
+              <span class="text-xs font-extrabold text-[#0873a6] bg-blue-50 px-2 py-0.5 rounded-md">01</span>
+              <h4 class="text-base font-bold text-slate-900">Petakan</h4>
+              <p class="text-xs text-slate-600 leading-relaxed">Kami mencatat siapa berkarya apa, agar potensi kota ini terlihat jelas.</p>
             </div>
-
-            <div class="p-4 bg-amber-50/80 rounded-2xl border border-amber-200/80 flex items-center gap-3">
-              ${getIcon('shield-check', 'w-6 h-6 text-amber-700 shrink-0')}
-              <p class="text-xs text-amber-900 leading-relaxed font-medium">
-                DPC GEKRAFS Banjarbaru memfasilitasi pendampingan legalitas gratis untuk pelaku ekraf rintisan di 5 kecamatan Banjarbaru.
-              </p>
+            
+            <div class="p-5 bg-slate-50 rounded-2xl border border-slate-200 space-y-2">
+              <span class="text-xs font-extrabold text-[#0873a6] bg-blue-50 px-2 py-0.5 rounded-md">02</span>
+              <h4 class="text-base font-bold text-slate-900">Lindungi</h4>
+              <p class="text-xs text-slate-600 leading-relaxed">Karya yang tercatat dan berlegalitas lebih siap dikembangkan dan dipercaya.</p>
+            </div>
+            
+            <div class="p-5 bg-slate-50 rounded-2xl border border-slate-200 space-y-2">
+              <span class="text-xs font-extrabold text-[#0873a6] bg-blue-50 px-2 py-0.5 rounded-md">03</span>
+              <h4 class="text-base font-bold text-slate-900">Pertemukan</h4>
+              <p class="text-xs text-slate-600 leading-relaxed">Kami menghubungkan karya dengan pembeli, kolaborator, dan jaringan nasional.</p>
+            </div>
+            
+            <div class="p-5 bg-slate-50 rounded-2xl border border-slate-200 space-y-2">
+              <span class="text-xs font-extrabold text-[#0873a6] bg-blue-50 px-2 py-0.5 rounded-md">04</span>
+              <h4 class="text-base font-bold text-slate-900">Tumbuhkan</h4>
+              <p class="text-xs text-slate-600 leading-relaxed">Karya yang siap berkembang kami pertemukan dengan mitra dan modal.</p>
             </div>
           </div>
+        </div>
 
+        <!-- Klausul Kejujuran: Yang Bukan Kami (Trust Builder) -->
+        <div class="mb-14 p-6 bg-amber-50/90 rounded-3xl border border-amber-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div class="space-y-1">
+            <span class="text-xs font-bold text-amber-800 uppercase tracking-wider">Komitmen Kejujuran</span>
+            <h4 class="text-base font-bold text-slate-900">Yang Bukan Kami</h4>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+              Kami bukan lembaga pelatihan dan bukan penyalur bantuan. Kami menyiapkan jalur agar karya bisa berkembang sebagai usaha.
+            </p>
+          </div>
+          <a href="#pemetaan" class="shrink-0 px-5 py-2.5 text-xs font-bold text-slate-950 bg-[#ffcb08] hover:bg-[#e5b600] rounded-xl shadow-xs transition-colors min-h-[44px] flex items-center justify-center">
+            Gabung Sekarang
+          </a>
         </div>
 
         <!-- NEW SUBSECTION: Live Organizational Meeting & Activity Footage -->

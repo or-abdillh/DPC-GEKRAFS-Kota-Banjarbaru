@@ -10,26 +10,29 @@ export function renderInvestmentDirectory() {
 
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
-        <!-- Section Header -->
-        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
-          <div class="max-w-2xl space-y-3">
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold bg-[#ffcb08]/15 text-[#ffcb08] border border-[#ffcb08]/30">
-              <span class="w-2 h-2 rounded-full bg-[#ffcb08]"></span>
-              <span>Direktori Proyek Terkurasi (EPIC 2)</span>
-            </div>
-            <h2 class="text-2xl sm:text-4xl font-extrabold tracking-tight text-white leading-tight">
-              Katalog Proyek Kreatif "Open for Investment"
-            </h2>
-            <p class="text-sm sm:text-base text-slate-300 leading-relaxed">
-              Jelajahi karya dan proposal usaha kreatif Banjarbaru yang telah lolos verifikasi kurator DPC GEKRAFS. Terbuka untuk skema bagi hasil, kemitraan rantai pasok, maupun penyertaan modal kerja.
-            </p>
+        <!-- Section Header: Siap Tumbuh -->
+        <div class="max-w-3xl mb-12 space-y-3">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold bg-[#ffcb08]/15 text-[#ffcb08] border border-[#ffcb08]/30">
+            <span class="w-2 h-2 rounded-full bg-[#ffcb08]"></span>
+            <span>Untuk Mitra Ekosistem</span>
           </div>
-
-          <div class="shrink-0 flex items-center gap-3">
-            <div class="text-right hidden sm:block">
-              <span class="text-xs text-slate-400 block">Status Kurasi DPC</span>
-              <span class="text-sm font-bold text-[#ffcb08]">100% Lolos Verifikasi</span>
-            </div>
+          <h2 class="text-2xl sm:text-4xl font-extrabold tracking-tight text-white leading-tight">
+            Karya yang siap dikembangkan.
+          </h2>
+          <p class="text-sm sm:text-base text-slate-300 leading-relaxed">
+            Sebagian pelaku kreatif Banjarbaru sudah punya karya, pasar awal, dan arah pengembangan yang jelas. Kami membuka ruang bagi investor, korporasi, dan instansi untuk mengenal mereka lebih dekat.
+          </p>
+          
+          <!-- 4 Langkah Alur Kemitraan -->
+          <div class="pt-3 flex flex-wrap items-center gap-2 text-xs text-slate-400">
+            <span class="font-semibold text-[#ffcb08]">Alur Kemitraan:</span>
+            <span>Pelaku Mengajukan</span>
+            <span>→</span>
+            <span>Tim Mengkurasi</span>
+            <span>→</span>
+            <span>Mitra Terverifikasi Melihat Detail</span>
+            <span>→</span>
+            <span>GEKRAFS Memfasilitasi Pertemuan</span>
           </div>
         </div>
 
@@ -55,7 +58,7 @@ export function renderInvestmentDirectory() {
                   </span>
                   <span class="px-2.5 py-1 text-[11px] font-semibold bg-emerald-950/80 backdrop-blur-md text-emerald-400 rounded-full border border-emerald-700/50 flex items-center gap-1">
                     ${getIcon('check', 'w-3 h-3 text-emerald-400')}
-                    <span>Kurasi Lolos</span>
+                    <span>Karya Terkurasi</span>
                   </span>
                 </div>
 
@@ -103,7 +106,7 @@ export function renderInvestmentDirectory() {
                   data-project-id="${proj.id}"
                   class="w-full inline-flex items-center justify-center gap-2 px-4 py-3 text-sm font-bold text-slate-900 bg-[#ffcb08] hover:bg-[#e5b600] active:scale-[0.98] rounded-xl shadow-md transition-all min-h-[44px]"
                 >
-                  <span>Ajukan Minat Kemitraan / Investasi</span>
+                  <span>Ajukan Kemitraan</span>
                   ${getIcon('arrow-right', 'w-4 h-4 text-slate-900')}
                 </button>
 
@@ -111,6 +114,11 @@ export function renderInvestmentDirectory() {
             </div>
           `).join('')}
         </div>
+
+        <!-- Copy Penyangga Legalitas (docs/Copywriter_and_Content.md section 5.6) -->
+        <p class="text-xs text-slate-400 text-center mt-10 max-w-2xl mx-auto">
+          GEKRAFS Banjarbaru memfasilitasi pertemuan dan tidak menjadi pihak dalam kesepakatan investasi.
+        </p>
 
       </div>
     </section>
